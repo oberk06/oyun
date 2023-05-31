@@ -1,0 +1,100 @@
+/* *{
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 75px;
+    height: 75px;
+} */
+body{
+    background-color: black;
+}
+#resimdiv {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 8rem;
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+  padding: 1rem;
+}
+/* #skor {
+    text-align: center;
+    margin-top: 2rem;
+} */
+#skor {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    font: bold 2rem Arial;
+    background-color: #f7f7f7;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 10px 1px #5ab7ac;
+    max-width: 600px;
+    width: 90%;
+  }
+  
+
+#tiklananresim{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.result{
+    position: absolute;
+    left: -1900px;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 15rem;
+    transition: 0.5s;
+}
+
+
+.result.cik{
+    left: 40.7%;
+    text-align: center;
+    transition: 0.5s;
+}
+#final{
+    color: white;
+}
+
+.modal-container{
+    display: none;
+}
+.modal-container.show{
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.modal{
+    background-color: #fb778b;
+    text-align: center;
+    padding: 30px 50px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 500px;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
